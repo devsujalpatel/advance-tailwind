@@ -1,7 +1,9 @@
+import { Hero } from "@/components/hero";
+
 export default function Home() {
   return (
-    <div className="mt-2 flex h-screen items-center justify-center">
-      Hello, World
+    <div className="flex h-screen justify-center bg-neutral-900">
+      <Hero />
     </div>
   );
 }
